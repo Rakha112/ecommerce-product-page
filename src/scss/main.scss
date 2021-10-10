@@ -1,0 +1,60 @@
+@import "general";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.App {
+  height: 100vh;
+  .slider_image {
+    img {
+      z-index: -1;
+      width: 100%;
+    }
+    .swiper-button-prev {
+      background-color: $White;
+      border-radius: 50%;
+      background-image: url("../images/icon-previous.svg") !important;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 10px 15px;
+      width: 40px;
+      height: 40px;
+      left: 15px;
+    }
+    .swiper-button-prev::after {
+      display: none;
+    }
+    .swiper-button-next {
+      background-color: $White;
+      border-radius: 50%;
+      background-image: url("../images/icon-next.svg") !important;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 10px 15px;
+      width: 40px;
+      height: 40px;
+      right: 15px;
+    }
+    .swiper-button-next::after {
+      display: none;
+    }
+  }
+  .main_menu {
+    margin: 24px;
+    h3 {
+      color: $Orange;
+      font-size: 12px;
+      letter-spacing: 2px;
+    }
+    h1 {
+      color: $Very_vark_blue;
+    }
+    p {
+      color: $Dark_grayish_blue;
+    }
+  }
+}

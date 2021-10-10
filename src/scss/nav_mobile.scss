@@ -1,0 +1,78 @@
+@import "general";
+
+.nav_mobile {
+  background-color: $White;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px;
+
+  .icon_nav {
+    margin-right: 16px;
+    cursor: pointer;
+  }
+  .icon_chart {
+    margin-right: 22px;
+    cursor: pointer;
+  }
+  .icon_logo {
+    cursor: pointer;
+  }
+  .avatar {
+    cursor: pointer;
+  }
+  img {
+    width: 24px;
+  }
+  .nav_mobile_menu.aktif {
+    left: 0;
+  }
+  .nav_mobile_menu {
+    width: 250px;
+    z-index: 4;
+    transition: all 0.5s ease;
+    position: absolute;
+    height: 100vh;
+    top: 0;
+    left: -100%;
+    background-color: $White;
+    .icon_close {
+      margin-top: 30px;
+      margin-left: 26px;
+      cursor: pointer;
+    }
+    .isi_nav_mobile {
+      display: flex;
+      flex-direction: column;
+      margin-left: 26px;
+      margin-top: 3rem;
+      a {
+        transition: all 0.5s ease;
+        margin-bottom: 1.5rem;
+        color: $Very_vark_blue;
+        text-decoration: none;
+        font-family: "Kumbh Sans", sans-serif;
+        font-weight: 700;
+      }
+      a:hover {
+        color: $Orange;
+      }
+    }
+  }
+  .nav_bg.aktif {
+    opacity: 1;
+    visibility: visible;
+  }
+  .nav_bg {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s ease;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: $Black_nav;
+  }
+}

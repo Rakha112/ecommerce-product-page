@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.App {
+  height: 100vh;
+}
+
+.App .slider_image img {
+  z-index: -1;
+  width: 100%;
+}
+
+.App .slider_image .swiper-button-prev {
+  background-color: white;
+  border-radius: 50%;
+  background-image: url("../images/icon-previous.svg") !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 10px 15px;
+  width: 40px;
+  height: 40px;
+  left: 15px;
+}
+
+.App .slider_image .swiper-button-prev::after {
+  display: none;
+}
+
+.App .slider_image .swiper-button-next {
+  background-color: white;
+  border-radius: 50%;
+  background-image: url("../images/icon-next.svg") !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 10px 15px;
+  width: 40px;
+  height: 40px;
+  right: 15px;
+}
+
+.App .slider_image .swiper-button-next::after {
+  display: none;
+}
+
+.App .main_menu {
+  margin: 24px;
+}
+
+.App .main_menu h3 {
+  color: #ff7d1a;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.App .main_menu h1 {
+  color: #1d2025;
+}
+
+.App .main_menu p {
+  color: #68707d;
+}
+/*# sourceMappingURL=main.css.map */

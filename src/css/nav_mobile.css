@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+.nav_mobile {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 24px;
+}
+
+.nav_mobile .icon_nav {
+  margin-right: 16px;
+  cursor: pointer;
+}
+
+.nav_mobile .icon_chart {
+  margin-right: 22px;
+  cursor: pointer;
+}
+
+.nav_mobile .icon_logo {
+  cursor: pointer;
+}
+
+.nav_mobile .avatar {
+  cursor: pointer;
+}
+
+.nav_mobile img {
+  width: 24px;
+}
+
+.nav_mobile .nav_mobile_menu.aktif {
+  left: 0;
+}
+
+.nav_mobile .nav_mobile_menu {
+  width: 250px;
+  z-index: 4;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  position: absolute;
+  height: 100vh;
+  top: 0;
+  left: -100%;
+  background-color: white;
+}
+
+.nav_mobile .nav_mobile_menu .icon_close {
+  margin-top: 30px;
+  margin-left: 26px;
+  cursor: pointer;
+}
+
+.nav_mobile .nav_mobile_menu .isi_nav_mobile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 26px;
+  margin-top: 3rem;
+}
+
+.nav_mobile .nav_mobile_menu .isi_nav_mobile a {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  margin-bottom: 1.5rem;
+  color: #1d2025;
+  text-decoration: none;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 700;
+}
+
+.nav_mobile .nav_mobile_menu .isi_nav_mobile a:hover {
+  color: #ff7d1a;
+}
+
+.nav_mobile .nav_bg.aktif {
+  opacity: 1;
+  visibility: visible;
+}
+
+.nav_mobile .nav_bg {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+/*# sourceMappingURL=nav_mobile.css.map */

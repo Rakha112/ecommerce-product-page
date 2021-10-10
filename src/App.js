@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import NavMobile from "./components/NavMobile";
+import ChartMenu from "./components/ChartMenu";
+import { connect } from "react-redux";
+import GambarMobile from "./components/GambarMobile";
+import MainMenu from "./components/MainMenu";
 
-function App() {
+function App({ aktif }) {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={aktif ? "App aktif" : "App"} id="home">
+      <NavMobile />
+      <ChartMenu />
+      <GambarMobile />
+      <MainMenu />
     </div>
   );
 }
-
-export default App;
+const mapStateToProps = (state) => {
+  return {
+    aktif: state.aktif,
+  };
+};
+export default connect(mapStateToProps)(App);

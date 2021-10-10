@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACkBA,OAAO,CAAC,oFAAI",
+    "sources": [
+        "../scss/nav_mobile_aktif.scss",
+        "../scss/_general.scss"
+    ],
+    "names": [],
+    "file": "nav_mobile_aktif.css"
+}

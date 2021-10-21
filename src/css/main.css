@@ -7,6 +7,10 @@
   font-family: "Kumbh Sans", sans-serif;
 }
 
+.App.aktif {
+  overflow: hidden;
+}
+
 .App {
   height: 100vh;
 }

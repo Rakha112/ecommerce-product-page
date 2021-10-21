@@ -6,7 +6,9 @@
   box-sizing: border-box;
   font-family: "Kumbh Sans", sans-serif;
 }
-
+.App.aktif {
+  overflow: hidden;
+}
 .App {
   height: 100vh;
   .slider_image {

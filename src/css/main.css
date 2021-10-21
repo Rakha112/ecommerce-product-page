@@ -59,10 +59,13 @@
 }
 
 .App .main_menu h1 {
+  margin: 1rem 0 1rem 0;
   color: #1d2025;
 }
 
 .App .main_menu p {
+  font-size: 15px;
+  line-height: 1.5;
   color: #68707d;
 }
 /*# sourceMappingURL=main.css.map */

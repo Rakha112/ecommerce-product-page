@@ -1,0 +1,28 @@
+@import "general";
+
+.counter {
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 24px 24px 16px 24px;
+  background-color: $Light_grayish_blue;
+  //   padding: 24px;
+  border-radius: 14px;
+  .MuiButton-root {
+    height: 56px;
+    padding: 0;
+  }
+  .min {
+    padding: 24px;
+    border-radius: 14px;
+  }
+
+  .plus {
+    border-radius: 14px;
+    padding: 24px;
+  }
+  p {
+    font-weight: 700;
+  }
+}

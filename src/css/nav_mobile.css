@@ -19,8 +19,15 @@
 }
 
 .nav_mobile .icon_chart {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
   margin-right: 22px;
   cursor: pointer;
+}
+
+.nav_mobile .icon_chart img {
+  width: 22px;
+  height: 20px;
 }
 
 .nav_mobile .icon_logo {
@@ -100,5 +107,36 @@
   width: 100vw;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.75);
+}
+
+.nav_mobile .nav_mobile_kanan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav_mobile .nav_mobile_kanan .cart_status {
+  position: relative;
+}
+
+.nav_mobile .nav_mobile_kanan .cart_status .jumlah {
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 700;
+  color: white;
+  width: 20px;
+  height: 15px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 12px;
+  text-align: center;
+  background-color: #ff7d1a;
+  border-radius: 20px;
 }
 /*# sourceMappingURL=nav_mobile.css.map */

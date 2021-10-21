@@ -1,0 +1,33 @@
+@import "general";
+
+.button_add {
+  margin: 24px;
+  .MuiButton-root {
+    padding: 0;
+  }
+  button {
+    cursor: pointer;
+    color: white;
+    background-color: $Orange;
+    border: none;
+    border-radius: 14px;
+    width: 100%;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease;
+    button:hover {
+      background-color: $Pale_orange;
+    }
+    p {
+      font-weight: 700;
+      font-size: 16px;
+      font-family: "Kumbh Sans", sans-serif;
+    }
+    svg {
+      margin-right: 1rem;
+    }
+  }
+}

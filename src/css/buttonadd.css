@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+.button_add {
+  margin: 24px;
+}
+
+.button_add .MuiButton-root {
+  padding: 0;
+}
+
+.button_add button {
+  cursor: pointer;
+  color: white;
+  background-color: #ff7d1a;
+  border: none;
+  border-radius: 14px;
+  width: 100%;
+  height: 56px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.button_add button button:hover {
+  background-color: #ffa666;
+}
+
+.button_add button p {
+  font-weight: 700;
+  font-size: 16px;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.button_add button svg {
+  margin-right: 1rem;
+}
+/*# sourceMappingURL=buttonadd.css.map */

@@ -12,8 +12,13 @@
     cursor: pointer;
   }
   .icon_chart {
+    transition: all 0.5s ease;
     margin-right: 22px;
     cursor: pointer;
+    img {
+      width: 22px;
+      height: 20px;
+    }
   }
   .icon_logo {
     cursor: pointer;
@@ -74,5 +79,27 @@
     width: 100vw;
     height: 100vh;
     background-color: $Black_nav;
+  }
+  .nav_mobile_kanan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .cart_status {
+      position: relative;
+      .jumlah {
+        font-family: "Kumbh Sans", sans-serif;
+        font-weight: 700;
+        color: white;
+        width: 20px;
+        height: 15px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 12px;
+        text-align: center;
+        background-color: $Orange;
+        border-radius: 20px;
+      }
+    }
   }
 }
